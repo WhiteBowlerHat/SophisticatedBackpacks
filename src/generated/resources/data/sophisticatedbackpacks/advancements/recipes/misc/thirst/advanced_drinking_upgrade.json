@@ -1,0 +1,44 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thirst"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:thirst/advanced_drinking_upgrade"
+    }
+  ],
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "sophisticatedbackpacks:thirst/advanced_drinking_upgrade"
+      ]
+    },
+    "criteria": {
+      "has_feeding_upgrade": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "sophisticatedbackpacks:thirst/drinking_upgrade"
+              ]
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "sophisticatedbackpacks:thirst/advanced_drinking_upgrade"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_feeding_upgrade",
+        "has_the_recipe"
+      ]
+    ]
+  }

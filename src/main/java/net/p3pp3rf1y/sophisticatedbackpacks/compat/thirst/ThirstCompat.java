@@ -35,7 +35,7 @@ import java.util.function.Supplier;
 
 public class ThirstCompat implements ICompat {
 /*
-	public static final RegistryObject<BlockTransformationUpgradeItem> ADVANCE_DRINKING_UPGRADE = ModItems.ITEMS.register("thirst/advance_drinking_upgrade",
+	public static final RegistryObject<BlockTransformationUpgradeItem> ADVANCED_DRINKING_UPGRADE = ModItems.ITEMS.register("thirst/advanced_drinking_upgrade",
 			() -> new BlockTransformationUpgradeItem(SophisticatedBackpacks.ITEM_GROUP, ModRecipeTypes.BOTANIST_WORKBENCH_TYPE, Config.SERVER.maxUpgradesPerStorage));
 	public static final RegistryObject<BlockTransformationUpgradeItem> GLASSBLOWER_WORKBENCH_UPGRADE = ModItems.ITEMS.register("thirst/drinking_upgrade",
 			() -> new BlockTransformationUpgradeItem(SophisticatedBackpacks.ITEM_GROUP, ModRecipeTypes.GLASSBLOWER_TYPE, Config.SERVER.maxUpgradesPerStorage));

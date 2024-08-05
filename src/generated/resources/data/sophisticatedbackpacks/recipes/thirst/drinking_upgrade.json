@@ -1,11 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "conditions": [
-      {
-        "itemRegistryName": "sophisticatedbackpacks:thirst/drinking_upgrade",
-        "type": "sophisticatedcore:item_enabled"
-      }
-    ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thirst"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:thirst/drinking_upgrade"
+    }
+  ],
     "pattern": [
       " C ",
       "ABM",

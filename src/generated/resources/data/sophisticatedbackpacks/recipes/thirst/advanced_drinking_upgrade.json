@@ -1,9 +1,12 @@
 {
-  "type": "sophisticatedcore:upgrade_next_tier",
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "itemRegistryName": "sophisticatedbackpacks:thirst/advanced_drinking_upgrade",
-      "type": "sophisticatedcore:item_enabled"
+      "type": "neoforge:mod_loaded",
+      "modid": "thirst"
+    },
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:thirst/advanced_drinking_upgrade"
     }
   ],
   "pattern": [
