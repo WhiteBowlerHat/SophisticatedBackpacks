@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "conditions": [
+      {
+        "itemRegistryName": "sophisticatedbackpacks:thirst/drinking_upgrade",
+        "type": "sophisticatedcore:item_enabled"
+      }
+    ],
+    "pattern": [
+      " C ",
+      "ABM",
+      " E "
+    ],
+    "key": {
+      "B": {
+        "item": "sophisticatedbackpacks:upgrade_base"
+      },
+      "C": {
+        "item": "minecraft:cauldron"
+      },
+      "A": {
+        "item": "minecraft:honey_bottle"
+      },
+      "M": {
+        "item": "minecraft:glass_bottle"
+      },
+      "E": {
+        "tag": "forge:ender_pearls"
+      }
+    },
+    "result": {
+      "item": "sophisticatedbackpacks:thirst/drinking_upgrade"
+    }
+}
